@@ -1,4 +1,5 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["./.eslintrc.js", "app/javascript/**/*"]
+  "include": ["./.eslintrc.js", "app/javascript/**/*", "!app/assets/builds/**/*"],
+  "exclude": ["node_modules", "app/assets/builds"]
 }
